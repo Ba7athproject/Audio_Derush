@@ -23,7 +23,10 @@ import io
 import os
 import warnings
 from io import BytesIO
-from typing import Any, Optional, Union
+from typing import Any, Optional, Union, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import torch  # type: ignore
 
 import numpy as np
 import requests
