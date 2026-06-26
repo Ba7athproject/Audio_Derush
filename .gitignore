@@ -1,0 +1,27 @@
+# Environnements virtuels
+venv_ia/
+venv/
+env/
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Modèles et cache
+~/.cache/whisperx_models/
+models/
+
+# Fichiers générés (transcriptions)
+*.srt
+*.vtt
+*.txt
+!requirements.txt
+
+# Fichiers temporaires et OS
+.DS_Store
+Thumbs.db
+*.log
